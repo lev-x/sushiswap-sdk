@@ -87,8 +87,8 @@ export class HybridPool extends Pool {
 type WeightedPoolInfo = PoolInfoNoType & { weight0: number; weight1: number }
 
 export class WeightedPool extends Pool {
-  weight0: number
-  weight1: number
+  weight0: BigNumber
+  weight1: BigNumber
   constructor(info: WeightedPoolInfo) {
     super({
       type: PoolType.Weighted,
