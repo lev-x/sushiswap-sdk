@@ -28,4 +28,5 @@ export enum ChainId {
   MOONRIVER = 1285,
   FUSE = 122,
   TELOS = 40,
+  XINFIN = 50,
 }
